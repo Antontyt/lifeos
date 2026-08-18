@@ -1,0 +1,9 @@
+# Testing
+pytest
+pytest-cov
+
+# Linting and formatting
+ruff
+
+# Type checking
+mypy

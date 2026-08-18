@@ -1,0 +1,55 @@
+# ===== Virtual environment =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Python bytecode and cache =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== Distribution / packaging =====
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ===== Testing and coverage =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# ===== Linting and type checking =====
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ===== Environment variables and secrets =====
+.env
+.env.local
+*.env
+
+# ===== IDE: PyCharm / JetBrains =====
+.idea/
+
+# ===== IDE: VS Code =====
+.vscode/
+
+# ===== Operating system =====
+.DS_Store
+Thumbs.db
+
+# ===== Databases (local development) =====
+*.sqlite3
+*.db
+
+# ===== Project logs =====
+logs/
+*.log
