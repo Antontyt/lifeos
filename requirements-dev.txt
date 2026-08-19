@@ -1,6 +1,7 @@
 # Testing
 pytest
 pytest-cov
+httpx
 
 # Linting and formatting
 ruff
